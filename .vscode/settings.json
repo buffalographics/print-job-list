@@ -1,0 +1,8 @@
+{
+    "jupyter.jupyterServerType": "local",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.formatting.provider": "autopep8"
+}
