@@ -1,21 +1,22 @@
-import os
-dirs = os.listdir(path())
-print(dirs)
-
-obj = {}
-for dir in dirs:
-    i = 0
-    folder = os.path.join(path, dir)
-    jobs = glob.glob(folder+'/**/*/PRINT/*', recursive=True)
-    print('jobs: ', jobs)
-    # for job in jobs:
-    conf = {
-        'full_path': os.path.join(path, dir),
-    }
+data = []
 
 
-for key, val in obj.items():
-    list = obj[key]
-    print(list)
-    # obj[key].jobs = list
-# pretty_print(obj)
+for client in clients:
+    client_obj = clients[client]
+
+    for job in client_obj['jobs']:
+        job_obj = client_obj['jobs'][job]
+
+        for file in client_obj['jobs'][job]['files']:
+            print(file)
+            file_obj = ''
+
+        rowobj = {
+            'client': client,
+            'project': job,
+            'material': '',
+            'file_name': '',
+            'file_size': '',
+            'file_path': '',
+            'qty': '',
+        }
