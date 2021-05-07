@@ -2,8 +2,7 @@
 import json
 import os
 from glob import glob
-
-
+from util import create_file_obj
 # from pymongo import MongoClient
 # user = "buffalographics"
 
@@ -16,10 +15,10 @@ from glob import glob
 # clients_collection = db.clients
 
 clients_dir = "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients"
+data_store = 'data.json'
 
 
 def build_clients(dir):
-    data_store = 'data.json'
     clients = {}
     if os.path.isfile(data_store):
         with open(data_store) as json_file:
@@ -44,51 +43,55 @@ def build_clients(dir):
 build_clients(clients_dir)
 
 
-# def builder(path):
-#     with open(data_store) as json_file:
-#         clients = json.load(json_file)
+def builder(dir):
+    clients = {}
+    with open(data_store) as outfile:
+        clients = json.load(outfile)['clients']
+    for client in clients.keys():
+        jobs = {}
 
-#     paths = listdir(path)
-#     obj = {}
-#     for item in paths:
-#         i = 0
-#         jobs = {}
-#         dir = os.path.join(path, item)
-#         _jobs = glob(dir+'*/**/*/PRINT', recursive=True)
-#         default = glob(dir+'/PRINT/*.pdf', recursive=True)
-#         if len(default) > 0:
-#             files = {}
-#             for file in default:
-#                 files[file.split('/').pop()] = create_file_obj(file)
+        client_dir = os.path.join(dir, client)
+        default = glob(f"{client_dir}/PRINT/*.pdf", recursive=True)
 
-#             jobs['.'] = {'files': files}
-#         # print(_jobs)
-#         for job in _jobs:
-#             job_full_path = job
-#             job = job.replace(dir+'/', '').replace('/PRINT', '')
-#             files = {}
+        if len(default) > 0:
+            files = {}
+            for file in default:
+                files[file.split('/').pop()] = create_file_obj(file)
 
-#             for file in glob(job_full_path+'/*.pdf'):
-#                 file_obj = create_file_obj(file)
+            jobs['.'] = {'files': files}
 
-#                 # print(int(qty)
-#                 files[file_obj['file_name']] = file_obj
+        for job in glob(f"{client_dir}*/**/*/PRINT", recursive=True):
+            job_full_path = job
+            job = job.replace(dir+'/', '').replace('/PRINT', '')
+            files = {}
 
-#             jobs[job] = {
-#                 'full_path': job_full_path,
-#                 'files': files
-#             }
 
-#         obj[item] = {
-#             'full_path': dir,
-#             'jobs': jobs
+            for file in glob(job_full_path+'/*.pdf'):
+                file_obj = create_file_obj(file)
 
-#         }
-#     return obj
+                # print(int(qty)
+                files[file_obj['file_name']] = file_obj
 
+            jobs[job] = {'full_path': job_full_path, 'files': files}
+
+        clients[client] = {
+            'full_path': dir,
+            'jobs': jobs
+
+        }
+
+    with open(data_store, 'w') as outfile:
+        json.dump({'clients': clients}, outfile)
+
+
+print(builder(clients_dir))
 
 # clients = builder(path)
 # print(clients)
+
+# %%
+
+# %%
 
 # %%
 

@@ -32,7 +32,7 @@ def file_size(file_path):
 
 
 def pdf_dim(file):
-    if os.path.isfile(file) and file.endswith('.pdf'):
+    if os.path.isfile(file) and file.endswith('.pdf') and os.stat(file):
         sizes = {'height': '', 'width': ''}
         try:
             media_box = PdfReader(file).pages[0].MediaBox
