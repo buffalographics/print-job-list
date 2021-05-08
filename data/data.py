@@ -65,10 +65,10 @@ def builder(dir):
             job = job.replace(dir+'/', '').replace('/PRINT', '')
             files = {}
 
-
             for file in glob(job_full_path+'/*.pdf'):
+                print(file)
                 file_obj = create_file_obj(file)
-
+                print(file_obj)
                 # print(int(qty)
                 files[file_obj['file_name']] = file_obj
 
@@ -84,7 +84,7 @@ def builder(dir):
         json.dump({'clients': clients}, outfile)
 
 
-print(builder(clients_dir))
+builder(clients_dir)
 
 # clients = builder(path)
 # print(clients)

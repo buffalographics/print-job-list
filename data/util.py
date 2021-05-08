@@ -1,6 +1,9 @@
+
+# %%
 import os
 from pdfrw import PdfReader
 import json
+import re
 
 
 def is_json(myjson):
@@ -51,16 +54,29 @@ def pdf_dim(file):
         return sizes
 
 
+def qty_file_str(file):
+    print(file)
+    item = file.lower().replace('.pdf', '')
+    item = item.split('qty').pop()
+    return int(re.sub("[^0-9]", "", item))
+
+
+print(qty_file_str("bell_cc_MS_number_qty_2.pdf"))
+print(qty_file_str("bell_cc_MS_number.pdf"))
+
+
 def create_file_obj(file):
     sizes = pdf_dim(file)
-
+    file_name = file.split('/').pop()
+    qty = qty_file_str(file_name)
+    print(qty)
     file_obj = {
         'full_path': file,
-        'file_name': file.split('/').pop(),
         'width': sizes['width'],
         'height': sizes['height'],
         'size': file_size(file),
-        'qty': ''
     }
 
     return file_obj
+
+# %%
