@@ -1,5 +1,4 @@
-
-# %%
+from pymongo import MongoClient
 import os
 from pdfrw import PdfReader
 import json
@@ -55,10 +54,13 @@ def pdf_dim(file):
 
 
 def qty_file_str(file):
-    print(file)
-    item = file.lower().replace('.pdf', '')
-    item = item.split('qty').pop()
-    return int(re.sub("[^0-9]", "", item))
+    if 'qty' in file.lower():
+        print(file)
+        item = file.lower().replace('.pdf', '')
+        item = item.split('qty').pop()
+        return round(float(re.sub("[^0-9]", "", item)))
+    else:
+        return None
 
 
 print(qty_file_str("bell_cc_MS_number_qty_2.pdf"))
@@ -78,5 +80,19 @@ def create_file_obj(file):
     }
 
     return file_obj
+
+
+def database():
+    user = 'buffalographics'
+    pwd = "Bgsince21"
+    host = "cluster0.z7wmc.mongodb.net"
+    # col = "buffalographics"
+
+    mongo_uri = f"mongodb+srv://{user}:" + \
+        pwd + f"@{host}/"
+
+    client = MongoClient(mongo_uri)
+    db = client.buffalographics
+    return db
 
 # %%

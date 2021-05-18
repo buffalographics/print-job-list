@@ -3,16 +3,17 @@ import json
 import os
 from glob import glob
 from util import create_file_obj
-# from pymongo import MongoClient
-# user = "buffalographics"
+from pymongo import MongoClient
+user = "buffalographics"
 
-# col = "buffalographics"
-# uri = f"mongodb+srv\\[:]\\{user}\\//:Bgsince21@cluster0.z7wmc.mongodb.net/{col}"
-# client = MongoClient(uri)
 
-# db = client.buffalographics
+col = "buffalographics"
+uri = f"mongodb+srv\\[:]\\{user}\\//:Bgsince21@cluster0.z7wmc.mongodb.net/{col}"
+client = MongoClient(uri)
 
-# clients_collection = db.clients
+db = client.buffalographics
+
+clients_collection = db.clients
 
 clients_dir = "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients"
 data_store = 'data.json'

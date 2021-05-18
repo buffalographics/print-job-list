@@ -1,1 +1,762 @@
-{"clients": {"BMCR Concrete": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "Bell Concrete": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {"Bell Concrete/mixer": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT", "files": {"bell_cc_USDOT_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_USDOT_qty_2.pdf", "file_name": "bell_cc_USDOT_qty_2.pdf", "width": "3in", "height": "20in", "size": "280.9 KB", "qty": ""}, "bell_cc_MS_number_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_MS_number_qty_2.pdf", "file_name": "bell_cc_MS_number_qty_2.pdf", "width": "3in", "height": "14in", "size": "279.4 KB", "qty": ""}, "bell_cc_drum_graphic_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_drum_graphic_qty_2.pdf", "file_name": "bell_cc_drum_graphic_qty_2.pdf", "width": "47in", "height": "41in", "size": "287.6 KB", "qty": ""}, "bell_cc_door_graphic_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_door_graphic_qty_2.pdf", "file_name": "bell_cc_door_graphic_qty_2.pdf", "width": "14in", "height": "13in", "size": "283.6 KB", "qty": ""}}}}}, "C-CON Services": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "Charley's Concrete": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {"Charley's Concrete/mixer": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT", "files": {"mixer_door_cut_files.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/mixer_door_cut_files.pdf", "file_name": "mixer_door_cut_files.pdf", "width": "21in", "height": "21in", "size": "8.9 MB", "qty": ""}, "hood_stripes_cut_files.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/hood_stripes_cut_files.pdf", "file_name": "hood_stripes_cut_files.pdf", "width": "21in", "height": "59in", "size": "8.2 MB", "qty": ""}, "usdot_number.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/usdot_number.pdf", "file_name": "usdot_number.pdf", "width": "3in", "height": "11in", "size": "189.1 KB", "qty": ""}, "drum_logo_white_concrete.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/drum_logo_white_concrete.pdf", "file_name": "drum_logo_white_concrete.pdf", "width": "6in", "height": "64in", "size": "332.0 KB", "qty": ""}, "drum_logo_red_concrete.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/drum_logo_red_concrete.pdf", "file_name": "drum_logo_red_concrete.pdf", "width": "9in", "height": "73in", "size": "329.3 KB", "qty": ""}, "drum_logo_blue.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/drum_logo_blue.pdf", "file_name": "drum_logo_blue.pdf", "width": "49in", "height": "122in", "size": "444.6 KB", "qty": ""}}}, "Charley's Concrete/tractor": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT", "files": {"charleys_cc_mixer_drivers_white_43x13in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_drivers_white_43x13in.pdf", "file_name": "charleys_cc_mixer_drivers_white_43x13in.pdf", "width": "13in", "height": "43in", "size": "3.0 MB", "qty": ""}, "charleys_cc_mixer_pass_white_43x13in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_pass_white_43x13in.pdf", "file_name": "charleys_cc_mixer_pass_white_43x13in.pdf", "width": "13in", "height": "43in", "size": "3.0 MB", "qty": ""}, "charleys_cc_mixer_drivers_red_41x10in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_drivers_red_41x10in.pdf", "file_name": "charleys_cc_mixer_drivers_red_41x10in.pdf", "width": "11in", "height": "41in", "size": "3.0 MB", "qty": ""}, "charleys_cc_mixer_pass_red_41x10in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_pass_red_41x10in.pdf", "file_name": "charleys_cc_mixer_pass_red_41x10in.pdf", "width": "11in", "height": "41in", "size": "3.0 MB", "qty": ""}, "charleys_cc_tractor_door_20x20in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_20x20in.pdf", "file_name": "charleys_cc_tractor_door_20x20in.pdf", "width": "21in", "height": "21in", "size": "8.8 MB", "qty": ""}, "charleys_cc_tractor_door_white_20x20in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_white_20x20in.pdf", "file_name": "charleys_cc_tractor_door_white_20x20in.pdf", "width": "21in", "height": "21in", "size": "577.6 KB", "qty": ""}, "charleys_cc_tractor_door_red_19x10in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_red_19x10in.pdf", "file_name": "charleys_cc_tractor_door_red_19x10in.pdf", "width": "10in", "height": "20in", "size": "466.0 KB", "qty": ""}, "usdot_number.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/usdot_number.pdf", "file_name": "usdot_number.pdf", "width": "2in", "height": "10in", "size": "188.6 KB", "qty": ""}, "charleys_cc_tractor_door_blue_19x17in.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_blue_19x17in.pdf", "file_name": "charleys_cc_tractor_door_blue_19x17in.pdf", "width": "18in", "height": "20in", "size": "52.3 KB", "qty": ""}}}}}, "Estrada Ready Mix Concrete": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "H&H Concrete": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"H&H_CC_end_dump.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_end_dump.pdf", "file_name": "H&H_CC_end_dump.pdf", "width": "43in", "height": "41in", "size": "617.9 KB", "qty": ""}, "H&H_CC_pneumatic.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_pneumatic.pdf", "file_name": "H&H_CC_pneumatic.pdf", "width": "55in", "height": "53in", "size": "618.8 KB", "qty": ""}, "H&H_CC_door_red_cutfile.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_door_red_cutfile.pdf", "file_name": "H&H_CC_door_red_cutfile.pdf", "width": "7in", "height": "5in", "size": "466.4 KB", "qty": ""}, "H&H_CC_phone_number_KELLER.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_phone_number_KELLER.pdf", "file_name": "H&H_CC_phone_number_KELLER.pdf", "width": "7in", "height": "63in", "size": "358.4 KB", "qty": ""}}}}}, "H&S Excavation": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"H&S_Excavation_door_graphics_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&S Excavation/PRINT/H&S_Excavation_door_graphics_qty_2.pdf", "file_name": "H&S_Excavation_door_graphics_qty_2.pdf", "width": "10in", "height": "19in", "size": "441.7 KB", "qty": ""}, "H&S_Excavation_US&TXDOT_numbers_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&S Excavation/PRINT/H&S_Excavation_US&TXDOT_numbers_qty_2.pdf", "file_name": "H&S_Excavation_US&TXDOT_numbers_qty_2.pdf", "width": "5in", "height": "12in", "size": "407.6 KB", "qty": ""}, "H&S_Excavation_pin_stripes.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&S Excavation/PRINT/H&S_Excavation_pin_stripes.pdf", "file_name": "H&S_Excavation_pin_stripes.pdf", "width": "1in", "height": "73in", "size": "399.4 KB", "qty": ""}}}}}, "NeBo Trucking Inc": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "Numo RMFG": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {"Numo RMFG/saftey_stickers/kit_1": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT", "files": {"KIT_1_CAUTION_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_CAUTION_2.pdf", "file_name": "KIT_1_CAUTION_2.pdf", "width": "2in", "height": "8in", "size": "147.2 KB", "qty": ""}, "KIT_1_DANGER_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_DANGER_2.pdf", "file_name": "KIT_1_DANGER_2.pdf", "width": "5in", "height": "5in", "size": "2.0 MB", "qty": ""}, "KIT_1_CAUTION_1.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_CAUTION_1.pdf", "file_name": "KIT_1_CAUTION_1.pdf", "width": "2in", "height": "5in", "size": "619.2 KB", "qty": ""}, "KIT_1_INSTRUCTION_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_INSTRUCTION_2.pdf", "file_name": "KIT_1_INSTRUCTION_2.pdf", "width": "3in", "height": "5in", "size": "152.0 KB", "qty": ""}, "KIT_1_DANGER.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_DANGER.pdf", "file_name": "KIT_1_DANGER.pdf", "width": "5in", "height": "4in", "size": "170.1 KB", "qty": ""}}}, "Numo RMFG/saftey_stickers/kit_2": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_2/PRINT", "files": {}}, "Numo RMFG/saftey_stickers/kit_3": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT", "files": {"numo_kit_3_danger.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_danger.pdf", "file_name": "numo_kit_3_danger.pdf", "width": "4in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_danger_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_danger_2.pdf", "file_name": "numo_kit_3_danger_2.pdf", "width": "4in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_danger_3.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_danger_3.pdf", "file_name": "numo_kit_3_danger_3.pdf", "width": "4in", "height": "7in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_operators_instructions.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions.pdf", "file_name": "numo_kit_3_operators_instructions.pdf", "width": "5in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_operators_instructions_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions_2.pdf", "file_name": "numo_kit_3_operators_instructions_2.pdf", "width": "3in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_operators_instructions_3.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions_3.pdf", "file_name": "numo_kit_3_operators_instructions_3.pdf", "width": "5in", "height": "6in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_operators_instructions_4.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions_4.pdf", "file_name": "numo_kit_3_operators_instructions_4.pdf", "width": "4in", "height": "4in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_notice.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_notice.pdf", "file_name": "numo_kit_3_notice.pdf", "width": "3in", "height": "4in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_warning.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_warning.pdf", "file_name": "numo_kit_3_warning.pdf", "width": "4in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_warning_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_warning_2.pdf", "file_name": "numo_kit_3_warning_2.pdf", "width": "3in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_safety_notice.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_safety_notice.pdf", "file_name": "numo_kit_3_safety_notice.pdf", "width": "3in", "height": "5in", "size": "1.2 MB", "qty": ""}, "numo_kit_3_no_smoking.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_no_smoking.pdf", "file_name": "numo_kit_3_no_smoking.pdf", "width": "3in", "height": "8in", "size": "1.2 MB", "qty": ""}}}}}, "Pegasus Link Constructors": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"PL_15x15_door_logo.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Pegasus Link Constructors/PRINT/PL_15x15_door_logo.pdf", "file_name": "PL_15x15_door_logo.pdf", "width": "15in", "height": "15in", "size": "1.2 MB", "qty": ""}, "17X24USDOT3397521.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Pegasus Link Constructors/PRINT/17X24USDOT3397521.pdf", "file_name": "17X24USDOT3397521.pdf", "width": "2in", "height": "16in", "size": "344.3 KB", "qty": ""}}}}}, "Phillips Sitework": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"PS_usdot_number_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_usdot_number_qty_2.pdf", "file_name": "PS_usdot_number_qty_2.pdf", "width": "3in", "height": "15in", "size": "231.7 KB", "qty": ""}, "PS_unit_number_75_qty_6.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_unit_number_75_qty_6.pdf", "file_name": "PS_unit_number_75_qty_6.pdf", "width": "4in", "height": "5in", "size": "227.1 KB", "qty": ""}, "PS_drum_graphic_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_drum_graphic_qty_2.pdf", "file_name": "PS_drum_graphic_qty_2.pdf", "width": "51in", "height": "113in", "size": "1.9 MB", "qty": ""}, "PS_door_graphic_qty_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_door_graphic_qty_2.pdf", "file_name": "PS_door_graphic_qty_2.pdf", "width": "11in", "height": "18in", "size": "236.4 KB", "qty": ""}}}}}, "Preferred Materials": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"pm_door.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/pm_door.pdf", "file_name": "pm_door.pdf", "width": "22in", "height": "18in", "size": "371.3 KB", "qty": ""}, "unit_numbers_fleet_1.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/unit_numbers_fleet_1.pdf", "file_name": "unit_numbers_fleet_1.pdf", "width": "4in", "height": "11in", "size": "374.6 KB", "qty": ""}, "pm_drum.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/pm_drum.pdf", "file_name": "pm_drum.pdf", "width": "56in", "height": "31in", "size": "62.6 KB", "qty": ""}, "USDOT.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/USDOT.pdf", "file_name": "USDOT.pdf", "width": "4in", "height": "23in", "size": "344.0 KB", "qty": ""}}}}}, "Raptor Concrete": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"raptor_cc_drum_graphic_part_1_of_3_DRIVERS.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Raptor Concrete/PRINT/raptor_cc_drum_graphic_part_1_of_3_DRIVERS.pdf", "file_name": "raptor_cc_drum_graphic_part_1_of_3_DRIVERS.pdf", "width": "31in", "height": "116in", "size": "1.4 MB", "qty": ""}, "raptor_cc_drum_graphic_part_1_of_3_PASS.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Raptor Concrete/PRINT/raptor_cc_drum_graphic_part_1_of_3_PASS.pdf", "file_name": "raptor_cc_drum_graphic_part_1_of_3_PASS.pdf", "width": "31in", "height": "116in", "size": "1.4 MB", "qty": ""}, "raptor_cc_drum_graphic_part_3_of_3_QTY_2.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Raptor Concrete/PRINT/raptor_cc_drum_graphic_part_3_of_3_QTY_2.pdf", "file_name": "raptor_cc_drum_graphic_part_3_of_3_QTY_2.pdf", "width": "10in", "height": "14in", "size": "1.0 MB", "qty": ""}}}}}, "Second Chance Boxing": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "Superior Ready Mix": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"pass_door_logo_qty_1.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Superior Ready Mix/PRINT/pass_door_logo_qty_1.pdf", "file_name": "pass_door_logo_qty_1.pdf", "width": "3in", "height": "20in", "size": "332.9 KB", "qty": ""}, "driver_door_logo_qty_1.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Superior Ready Mix/PRINT/driver_door_logo_qty_1.pdf", "file_name": "driver_door_logo_qty_1.pdf", "width": "4in", "height": "31in", "size": "333.1 KB", "qty": ""}}}}}, "TAP Leasing": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "The Hornet Stop": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "Titan Ready Mix": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {"Titan Ready Mix/Mixer": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT", "files": {"19.9PASSDOORtitanreadymixlogo.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/19.9PASSDOORtitanreadymixlogo.pdf", "file_name": "19.9PASSDOORtitanreadymixlogo.pdf", "width": "9in", "height": "19in", "size": "5.5 MB", "qty": ""}, "15X2.5USDOT3360781.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/15X2.5USDOT3360781.pdf", "file_name": "15X2.5USDOT3360781.pdf", "width": "2in", "height": "15in", "size": "66.9 KB", "qty": ""}, "112X75DRUMspartanBODYpass5x.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanBODYpass5x.pdf", "file_name": "112X75DRUMspartanBODYpass5x.pdf", "width": "15in", "height": "10in", "size": "31.4 MB", "qty": ""}, "112X75DRUMspartanBODYdriver5x.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanBODYdriver5x.pdf", "file_name": "112X75DRUMspartanBODYdriver5x.pdf", "width": "15in", "height": "10in", "size": "31.4 MB", "qty": ""}, "112X75DRUMspartanpartsDRIVER5x.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanpartsDRIVER5x.pdf", "file_name": "112X75DRUMspartanpartsDRIVER5x.pdf", "width": "10in", "height": "16in", "size": "31.4 MB", "qty": ""}, "112X75DRUMspartanpartsPASS5x.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanpartsPASS5x.pdf", "file_name": "112X75DRUMspartanpartsPASS5x.pdf", "width": "10in", "height": "16in", "size": "31.4 MB", "qty": ""}}}}}, "Wildcatter Redi-Mix": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {}}, "Yamaha 3": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients", "jobs": {".": {"files": {"left_side_graphic_gold.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_graphic_gold.pdf", "file_name": "left_side_graphic_gold.pdf", "width": "14in", "height": "58in", "size": "24.7 MB", "qty": ""}, "left_side_graphic_white.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_graphic_white.pdf", "file_name": "left_side_graphic_white.pdf", "width": "6in", "height": "20in", "size": "24.7 MB", "qty": ""}, "right_side_graphic_white.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_graphic_white.pdf", "file_name": "right_side_graphic_white.pdf", "width": "6in", "height": "20in", "size": "24.7 MB", "qty": ""}, "left_side_front_graphic_white.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_front_graphic_white.pdf", "file_name": "left_side_front_graphic_white.pdf", "width": "4in", "height": "16in", "size": "24.7 MB", "qty": ""}, "right_side_front_graphic_white.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_front_graphic_white.pdf", "file_name": "right_side_front_graphic_white.pdf", "width": "4in", "height": "16in", "size": "24.7 MB", "qty": ""}, "left_side_front_graphic_gold.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_front_graphic_gold.pdf", "file_name": "left_side_front_graphic_gold.pdf", "width": "10in", "height": "26in", "size": "351.7 KB", "qty": ""}, "right_side_front_graphic_gold.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_front_graphic_gold.pdf", "file_name": "right_side_front_graphic_gold.pdf", "width": "10in", "height": "26in", "size": "353.0 KB", "qty": ""}, "front_graphic_both_gold.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/front_graphic_both_gold.pdf", "file_name": "front_graphic_both_gold.pdf", "width": "10in", "height": "34in", "size": "352.9 KB", "qty": ""}, "left_side_graphic_gold_repair.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_graphic_gold_repair.pdf", "file_name": "left_side_graphic_gold_repair.pdf", "width": "3in", "height": "19in", "size": "24.7 MB", "qty": ""}, "sides_graphic_gold.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/sides_graphic_gold.pdf", "file_name": "sides_graphic_gold.pdf", "width": "24in", "height": "58in", "size": "24.7 MB", "qty": ""}, "right_side_graphic_gold.pdf": {"full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_graphic_gold.pdf", "file_name": "right_side_graphic_gold.pdf", "width": "14in", "height": "58in", "size": "24.7 MB", "qty": ""}}}}}}}
+{
+    "clients": {
+        "BMCR Concrete": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "Bell Concrete": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                "Bell Concrete/mixer": {
+                    "files": {
+                        "bell_cc_MS_number_qty_2.pdf": {
+                            "file_name": "bell_cc_MS_number_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_MS_number_qty_2.pdf",
+                            "height": "14in",
+                            "qty": "",
+                            "size": "279.4 KB",
+                            "width": "3in"
+                        },
+                        "bell_cc_USDOT_qty_2.pdf": {
+                            "file_name": "bell_cc_USDOT_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_USDOT_qty_2.pdf",
+                            "height": "20in",
+                            "qty": "",
+                            "size": "280.9 KB",
+                            "width": "3in"
+                        },
+                        "bell_cc_door_graphic_qty_2.pdf": {
+                            "file_name": "bell_cc_door_graphic_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_door_graphic_qty_2.pdf",
+                            "height": "13in",
+                            "qty": "",
+                            "size": "283.6 KB",
+                            "width": "14in"
+                        },
+                        "bell_cc_drum_graphic_qty_2.pdf": {
+                            "file_name": "bell_cc_drum_graphic_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT/bell_cc_drum_graphic_qty_2.pdf",
+                            "height": "41in",
+                            "qty": "",
+                            "size": "287.6 KB",
+                            "width": "47in"
+                        }
+                    },
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Bell Concrete/mixer/PRINT"
+                }
+            }
+        },
+        "C-CON Services": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "Charley's Concrete": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                "Charley's Concrete/mixer": {
+                    "files": {
+                        "drum_logo_blue.pdf": {
+                            "file_name": "drum_logo_blue.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/drum_logo_blue.pdf",
+                            "height": "122in",
+                            "qty": "",
+                            "size": "444.6 KB",
+                            "width": "49in"
+                        },
+                        "drum_logo_red_concrete.pdf": {
+                            "file_name": "drum_logo_red_concrete.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/drum_logo_red_concrete.pdf",
+                            "height": "73in",
+                            "qty": "",
+                            "size": "329.3 KB",
+                            "width": "9in"
+                        },
+                        "drum_logo_white_concrete.pdf": {
+                            "file_name": "drum_logo_white_concrete.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/drum_logo_white_concrete.pdf",
+                            "height": "64in",
+                            "qty": "",
+                            "size": "332.0 KB",
+                            "width": "6in"
+                        },
+                        "hood_stripes_cut_files.pdf": {
+                            "file_name": "hood_stripes_cut_files.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/hood_stripes_cut_files.pdf",
+                            "height": "59in",
+                            "qty": "",
+                            "size": "8.2 MB",
+                            "width": "21in"
+                        },
+                        "mixer_door_cut_files.pdf": {
+                            "file_name": "mixer_door_cut_files.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/mixer_door_cut_files.pdf",
+                            "height": "21in",
+                            "qty": "",
+                            "size": "8.9 MB",
+                            "width": "21in"
+                        },
+                        "usdot_number.pdf": {
+                            "file_name": "usdot_number.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT/usdot_number.pdf",
+                            "height": "11in",
+                            "qty": "",
+                            "size": "189.1 KB",
+                            "width": "3in"
+                        }
+                    },
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/mixer/PRINT"
+                },
+                "Charley's Concrete/tractor": {
+                    "files": {
+                        "charleys_cc_mixer_drivers_red_41x10in.pdf": {
+                            "file_name": "charleys_cc_mixer_drivers_red_41x10in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_drivers_red_41x10in.pdf",
+                            "height": "41in",
+                            "qty": "",
+                            "size": "3.0 MB",
+                            "width": "11in"
+                        },
+                        "charleys_cc_mixer_drivers_white_43x13in.pdf": {
+                            "file_name": "charleys_cc_mixer_drivers_white_43x13in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_drivers_white_43x13in.pdf",
+                            "height": "43in",
+                            "qty": "",
+                            "size": "3.0 MB",
+                            "width": "13in"
+                        },
+                        "charleys_cc_mixer_pass_red_41x10in.pdf": {
+                            "file_name": "charleys_cc_mixer_pass_red_41x10in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_pass_red_41x10in.pdf",
+                            "height": "41in",
+                            "qty": "",
+                            "size": "3.0 MB",
+                            "width": "11in"
+                        },
+                        "charleys_cc_mixer_pass_white_43x13in.pdf": {
+                            "file_name": "charleys_cc_mixer_pass_white_43x13in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_mixer_pass_white_43x13in.pdf",
+                            "height": "43in",
+                            "qty": "",
+                            "size": "3.0 MB",
+                            "width": "13in"
+                        },
+                        "charleys_cc_tractor_door_20x20in.pdf": {
+                            "file_name": "charleys_cc_tractor_door_20x20in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_20x20in.pdf",
+                            "height": "21in",
+                            "qty": "",
+                            "size": "8.8 MB",
+                            "width": "21in"
+                        },
+                        "charleys_cc_tractor_door_blue_19x17in.pdf": {
+                            "file_name": "charleys_cc_tractor_door_blue_19x17in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_blue_19x17in.pdf",
+                            "height": "20in",
+                            "qty": "",
+                            "size": "52.3 KB",
+                            "width": "18in"
+                        },
+                        "charleys_cc_tractor_door_red_19x10in.pdf": {
+                            "file_name": "charleys_cc_tractor_door_red_19x10in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_red_19x10in.pdf",
+                            "height": "20in",
+                            "qty": "",
+                            "size": "466.0 KB",
+                            "width": "10in"
+                        },
+                        "charleys_cc_tractor_door_white_20x20in.pdf": {
+                            "file_name": "charleys_cc_tractor_door_white_20x20in.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/charleys_cc_tractor_door_white_20x20in.pdf",
+                            "height": "21in",
+                            "qty": "",
+                            "size": "577.6 KB",
+                            "width": "21in"
+                        },
+                        "usdot_number.pdf": {
+                            "file_name": "usdot_number.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT/usdot_number.pdf",
+                            "height": "10in",
+                            "qty": "",
+                            "size": "188.6 KB",
+                            "width": "2in"
+                        }
+                    },
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Charley's Concrete/tractor/PRINT"
+                }
+            }
+        },
+        "Estrada Ready Mix Concrete": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "H&H Concrete": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "H&H_CC_door_red_cutfile.pdf": {
+                            "file_name": "H&H_CC_door_red_cutfile.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_door_red_cutfile.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "466.4 KB",
+                            "width": "7in"
+                        },
+                        "H&H_CC_end_dump.pdf": {
+                            "file_name": "H&H_CC_end_dump.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_end_dump.pdf",
+                            "height": "41in",
+                            "qty": "",
+                            "size": "617.9 KB",
+                            "width": "43in"
+                        },
+                        "H&H_CC_phone_number_KELLER.pdf": {
+                            "file_name": "H&H_CC_phone_number_KELLER.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_phone_number_KELLER.pdf",
+                            "height": "63in",
+                            "qty": "",
+                            "size": "358.4 KB",
+                            "width": "7in"
+                        },
+                        "H&H_CC_pneumatic.pdf": {
+                            "file_name": "H&H_CC_pneumatic.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&H Concrete/PRINT/H&H_CC_pneumatic.pdf",
+                            "height": "53in",
+                            "qty": "",
+                            "size": "618.8 KB",
+                            "width": "55in"
+                        }
+                    }
+                }
+            }
+        },
+        "H&S Excavation": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "H&S_Excavation_US&TXDOT_numbers_qty_2.pdf": {
+                            "file_name": "H&S_Excavation_US&TXDOT_numbers_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&S Excavation/PRINT/H&S_Excavation_US&TXDOT_numbers_qty_2.pdf",
+                            "height": "12in",
+                            "qty": "",
+                            "size": "407.6 KB",
+                            "width": "5in"
+                        },
+                        "H&S_Excavation_door_graphics_qty_2.pdf": {
+                            "file_name": "H&S_Excavation_door_graphics_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&S Excavation/PRINT/H&S_Excavation_door_graphics_qty_2.pdf",
+                            "height": "19in",
+                            "qty": "",
+                            "size": "441.7 KB",
+                            "width": "10in"
+                        },
+                        "H&S_Excavation_pin_stripes.pdf": {
+                            "file_name": "H&S_Excavation_pin_stripes.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/H&S Excavation/PRINT/H&S_Excavation_pin_stripes.pdf",
+                            "height": "73in",
+                            "qty": "",
+                            "size": "399.4 KB",
+                            "width": "1in"
+                        }
+                    }
+                }
+            }
+        },
+        "NeBo Trucking Inc": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "Numo RMFG": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                "Numo RMFG/saftey_stickers/kit_1": {
+                    "files": {
+                        "KIT_1_CAUTION_1.pdf": {
+                            "file_name": "KIT_1_CAUTION_1.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_CAUTION_1.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "619.2 KB",
+                            "width": "2in"
+                        },
+                        "KIT_1_CAUTION_2.pdf": {
+                            "file_name": "KIT_1_CAUTION_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_CAUTION_2.pdf",
+                            "height": "8in",
+                            "qty": "",
+                            "size": "147.2 KB",
+                            "width": "2in"
+                        },
+                        "KIT_1_DANGER.pdf": {
+                            "file_name": "KIT_1_DANGER.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_DANGER.pdf",
+                            "height": "4in",
+                            "qty": "",
+                            "size": "170.1 KB",
+                            "width": "5in"
+                        },
+                        "KIT_1_DANGER_2.pdf": {
+                            "file_name": "KIT_1_DANGER_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_DANGER_2.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "2.0 MB",
+                            "width": "5in"
+                        },
+                        "KIT_1_INSTRUCTION_2.pdf": {
+                            "file_name": "KIT_1_INSTRUCTION_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT/KIT_1_INSTRUCTION_2.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "152.0 KB",
+                            "width": "3in"
+                        }
+                    },
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_1/PRINT"
+                },
+                "Numo RMFG/saftey_stickers/kit_2": {
+                    "files": {},
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_2/PRINT"
+                },
+                "Numo RMFG/saftey_stickers/kit_3": {
+                    "files": {
+                        "numo_kit_3_danger.pdf": {
+                            "file_name": "numo_kit_3_danger.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_danger.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "4in"
+                        },
+                        "numo_kit_3_danger_2.pdf": {
+                            "file_name": "numo_kit_3_danger_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_danger_2.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "4in"
+                        },
+                        "numo_kit_3_danger_3.pdf": {
+                            "file_name": "numo_kit_3_danger_3.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_danger_3.pdf",
+                            "height": "7in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "4in"
+                        },
+                        "numo_kit_3_no_smoking.pdf": {
+                            "file_name": "numo_kit_3_no_smoking.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_no_smoking.pdf",
+                            "height": "8in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "3in"
+                        },
+                        "numo_kit_3_notice.pdf": {
+                            "file_name": "numo_kit_3_notice.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_notice.pdf",
+                            "height": "4in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "3in"
+                        },
+                        "numo_kit_3_operators_instructions.pdf": {
+                            "file_name": "numo_kit_3_operators_instructions.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "5in"
+                        },
+                        "numo_kit_3_operators_instructions_2.pdf": {
+                            "file_name": "numo_kit_3_operators_instructions_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions_2.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "3in"
+                        },
+                        "numo_kit_3_operators_instructions_3.pdf": {
+                            "file_name": "numo_kit_3_operators_instructions_3.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions_3.pdf",
+                            "height": "6in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "5in"
+                        },
+                        "numo_kit_3_operators_instructions_4.pdf": {
+                            "file_name": "numo_kit_3_operators_instructions_4.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_operators_instructions_4.pdf",
+                            "height": "4in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "4in"
+                        },
+                        "numo_kit_3_safety_notice.pdf": {
+                            "file_name": "numo_kit_3_safety_notice.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_safety_notice.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "3in"
+                        },
+                        "numo_kit_3_warning.pdf": {
+                            "file_name": "numo_kit_3_warning.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_warning.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "4in"
+                        },
+                        "numo_kit_3_warning_2.pdf": {
+                            "file_name": "numo_kit_3_warning_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT/numo_kit_3_warning_2.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "3in"
+                        }
+                    },
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Numo RMFG/saftey_stickers/kit_3/PRINT"
+                }
+            }
+        },
+        "Pegasus Link Constructors": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "17X24USDOT3397521.pdf": {
+                            "file_name": "17X24USDOT3397521.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Pegasus Link Constructors/PRINT/17X24USDOT3397521.pdf",
+                            "height": "16in",
+                            "qty": "",
+                            "size": "344.3 KB",
+                            "width": "2in"
+                        },
+                        "PL_15x15_door_logo.pdf": {
+                            "file_name": "PL_15x15_door_logo.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Pegasus Link Constructors/PRINT/PL_15x15_door_logo.pdf",
+                            "height": "15in",
+                            "qty": "",
+                            "size": "1.2 MB",
+                            "width": "15in"
+                        }
+                    }
+                }
+            }
+        },
+        "Phillips Sitework": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "PS_door_graphic_qty_2.pdf": {
+                            "file_name": "PS_door_graphic_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_door_graphic_qty_2.pdf",
+                            "height": "18in",
+                            "qty": "",
+                            "size": "236.4 KB",
+                            "width": "11in"
+                        },
+                        "PS_drum_graphic_qty_2.pdf": {
+                            "file_name": "PS_drum_graphic_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_drum_graphic_qty_2.pdf",
+                            "height": "113in",
+                            "qty": "",
+                            "size": "1.9 MB",
+                            "width": "51in"
+                        },
+                        "PS_unit_number_75_qty_6.pdf": {
+                            "file_name": "PS_unit_number_75_qty_6.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_unit_number_75_qty_6.pdf",
+                            "height": "5in",
+                            "qty": "",
+                            "size": "227.1 KB",
+                            "width": "4in"
+                        },
+                        "PS_usdot_number_qty_2.pdf": {
+                            "file_name": "PS_usdot_number_qty_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Phillips Sitework/PRINT/PS_usdot_number_qty_2.pdf",
+                            "height": "15in",
+                            "qty": "",
+                            "size": "231.7 KB",
+                            "width": "3in"
+                        }
+                    }
+                }
+            }
+        },
+        "Preferred Materials": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "USDOT.pdf": {
+                            "file_name": "USDOT.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/USDOT.pdf",
+                            "height": "23in",
+                            "qty": "",
+                            "size": "344.0 KB",
+                            "width": "4in"
+                        },
+                        "pm_door.pdf": {
+                            "file_name": "pm_door.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/pm_door.pdf",
+                            "height": "18in",
+                            "qty": "",
+                            "size": "371.3 KB",
+                            "width": "22in"
+                        },
+                        "pm_drum.pdf": {
+                            "file_name": "pm_drum.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/pm_drum.pdf",
+                            "height": "31in",
+                            "qty": "",
+                            "size": "62.6 KB",
+                            "width": "56in"
+                        },
+                        "unit_numbers_fleet_1.pdf": {
+                            "file_name": "unit_numbers_fleet_1.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Preferred Materials/PRINT/unit_numbers_fleet_1.pdf",
+                            "height": "11in",
+                            "qty": "",
+                            "size": "374.6 KB",
+                            "width": "4in"
+                        }
+                    }
+                }
+            }
+        },
+        "Raptor Concrete": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "raptor_cc_drum_graphic_part_1_of_3_DRIVERS.pdf": {
+                            "file_name": "raptor_cc_drum_graphic_part_1_of_3_DRIVERS.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Raptor Concrete/PRINT/raptor_cc_drum_graphic_part_1_of_3_DRIVERS.pdf",
+                            "height": "116in",
+                            "qty": "",
+                            "size": "1.4 MB",
+                            "width": "31in"
+                        },
+                        "raptor_cc_drum_graphic_part_1_of_3_PASS.pdf": {
+                            "file_name": "raptor_cc_drum_graphic_part_1_of_3_PASS.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Raptor Concrete/PRINT/raptor_cc_drum_graphic_part_1_of_3_PASS.pdf",
+                            "height": "116in",
+                            "qty": "",
+                            "size": "1.4 MB",
+                            "width": "31in"
+                        },
+                        "raptor_cc_drum_graphic_part_3_of_3_QTY_2.pdf": {
+                            "file_name": "raptor_cc_drum_graphic_part_3_of_3_QTY_2.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Raptor Concrete/PRINT/raptor_cc_drum_graphic_part_3_of_3_QTY_2.pdf",
+                            "height": "14in",
+                            "qty": "",
+                            "size": "1.0 MB",
+                            "width": "10in"
+                        }
+                    }
+                }
+            }
+        },
+        "Second Chance Boxing": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "Superior Ready Mix": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "driver_door_logo_qty_1.pdf": {
+                            "file_name": "driver_door_logo_qty_1.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Superior Ready Mix/PRINT/driver_door_logo_qty_1.pdf",
+                            "height": "31in",
+                            "qty": "",
+                            "size": "333.1 KB",
+                            "width": "4in"
+                        },
+                        "pass_door_logo_qty_1.pdf": {
+                            "file_name": "pass_door_logo_qty_1.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Superior Ready Mix/PRINT/pass_door_logo_qty_1.pdf",
+                            "height": "20in",
+                            "qty": "",
+                            "size": "332.9 KB",
+                            "width": "3in"
+                        }
+                    }
+                }
+            }
+        },
+        "TAP Leasing": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "The Hornet Stop": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "Titan Ready Mix": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                "Titan Ready Mix/Mixer": {
+                    "files": {
+                        "112X75DRUMspartanBODYdriver5x.pdf": {
+                            "file_name": "112X75DRUMspartanBODYdriver5x.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanBODYdriver5x.pdf",
+                            "height": "10in",
+                            "qty": "",
+                            "size": "31.4 MB",
+                            "width": "15in"
+                        },
+                        "112X75DRUMspartanBODYpass5x.pdf": {
+                            "file_name": "112X75DRUMspartanBODYpass5x.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanBODYpass5x.pdf",
+                            "height": "10in",
+                            "qty": "",
+                            "size": "31.4 MB",
+                            "width": "15in"
+                        },
+                        "112X75DRUMspartanpartsDRIVER5x.pdf": {
+                            "file_name": "112X75DRUMspartanpartsDRIVER5x.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanpartsDRIVER5x.pdf",
+                            "height": "16in",
+                            "qty": "",
+                            "size": "31.4 MB",
+                            "width": "10in"
+                        },
+                        "112X75DRUMspartanpartsPASS5x.pdf": {
+                            "file_name": "112X75DRUMspartanpartsPASS5x.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/112X75DRUMspartanpartsPASS5x.pdf",
+                            "height": "16in",
+                            "qty": "",
+                            "size": "31.4 MB",
+                            "width": "10in"
+                        },
+                        "15X2.5USDOT3360781.pdf": {
+                            "file_name": "15X2.5USDOT3360781.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/15X2.5USDOT3360781.pdf",
+                            "height": "15in",
+                            "qty": "",
+                            "size": "66.9 KB",
+                            "width": "2in"
+                        },
+                        "19.9PASSDOORtitanreadymixlogo.pdf": {
+                            "file_name": "19.9PASSDOORtitanreadymixlogo.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT/19.9PASSDOORtitanreadymixlogo.pdf",
+                            "height": "19in",
+                            "qty": "",
+                            "size": "5.5 MB",
+                            "width": "9in"
+                        }
+                    },
+                    "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Titan Ready Mix/Mixer/PRINT"
+                }
+            }
+        },
+        "Wildcatter Redi-Mix": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {}
+        },
+        "Yamaha 3": {
+            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients",
+            "jobs": {
+                ".": {
+                    "files": {
+                        "front_graphic_both_gold.pdf": {
+                            "file_name": "front_graphic_both_gold.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/front_graphic_both_gold.pdf",
+                            "height": "34in",
+                            "qty": "",
+                            "size": "352.9 KB",
+                            "width": "10in"
+                        },
+                        "left_side_front_graphic_gold.pdf": {
+                            "file_name": "left_side_front_graphic_gold.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_front_graphic_gold.pdf",
+                            "height": "26in",
+                            "qty": "",
+                            "size": "351.7 KB",
+                            "width": "10in"
+                        },
+                        "left_side_front_graphic_white.pdf": {
+                            "file_name": "left_side_front_graphic_white.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_front_graphic_white.pdf",
+                            "height": "16in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "4in"
+                        },
+                        "left_side_graphic_gold.pdf": {
+                            "file_name": "left_side_graphic_gold.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_graphic_gold.pdf",
+                            "height": "58in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "14in"
+                        },
+                        "left_side_graphic_gold_repair.pdf": {
+                            "file_name": "left_side_graphic_gold_repair.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_graphic_gold_repair.pdf",
+                            "height": "19in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "3in"
+                        },
+                        "left_side_graphic_white.pdf": {
+                            "file_name": "left_side_graphic_white.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/left_side_graphic_white.pdf",
+                            "height": "20in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "6in"
+                        },
+                        "right_side_front_graphic_gold.pdf": {
+                            "file_name": "right_side_front_graphic_gold.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_front_graphic_gold.pdf",
+                            "height": "26in",
+                            "qty": "",
+                            "size": "353.0 KB",
+                            "width": "10in"
+                        },
+                        "right_side_front_graphic_white.pdf": {
+                            "file_name": "right_side_front_graphic_white.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_front_graphic_white.pdf",
+                            "height": "16in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "4in"
+                        },
+                        "right_side_graphic_gold.pdf": {
+                            "file_name": "right_side_graphic_gold.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_graphic_gold.pdf",
+                            "height": "58in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "14in"
+                        },
+                        "right_side_graphic_white.pdf": {
+                            "file_name": "right_side_graphic_white.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/right_side_graphic_white.pdf",
+                            "height": "20in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "6in"
+                        },
+                        "sides_graphic_gold.pdf": {
+                            "file_name": "sides_graphic_gold.pdf",
+                            "full_path": "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients/Yamaha 3/PRINT/sides_graphic_gold.pdf",
+                            "height": "58in",
+                            "qty": "",
+                            "size": "24.7 MB",
+                            "width": "24in"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
