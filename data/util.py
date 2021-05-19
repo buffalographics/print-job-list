@@ -63,20 +63,18 @@ def qty_file_str(file):
         return None
 
 
-print(qty_file_str("bell_cc_MS_number_qty_2.pdf"))
-print(qty_file_str("bell_cc_MS_number.pdf"))
-
-
-def create_file_obj(file):
+def create_file_obj(client_id, job_id, file):
     sizes = pdf_dim(file)
     file_name = file.split('/').pop()
     qty = qty_file_str(file_name)
     print(qty)
     file_obj = {
+        "client_id": client_id,
+        "job_id": job_id,
         'full_path': file,
-        'width': sizes['width'],
-        'height': sizes['height'],
-        'size': file_size(file),
+        "width": sizes["width"],
+        "height": sizes["height"],
+        "size": file_size(file),
     }
 
     return file_obj
@@ -91,8 +89,32 @@ def database():
     mongo_uri = f"mongodb+srv://{user}:" + \
         pwd + f"@{host}/"
 
-    client = MongoClient(mongo_uri)
-    db = client.buffalographics
-    return db
+    db = None
 
-# %%
+    start = time.time()
+
+    try:
+
+        # attempt to create a client instance of PyMongo driver
+
+        client = MongoClient(mongo_uri)
+
+    # call the server_info() to verify that client instance is valid
+
+        client.server_info()  # will throw an exception
+
+        print(time.time() - start)
+
+        db = client["buffalographics"]
+
+        return db
+
+    except:
+
+        print("connection error")
+
+    # print the time that has elapsed
+
+    print(time.time() - start)
+
+    # %%
