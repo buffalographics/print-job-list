@@ -78,7 +78,7 @@ def link_jobs(q):
     _clients.update_one(q, {"$set": {'jobs': jobs}})
 
 
-#%%
+# %%
 cs = col.find()
 for c in cs:
     if 'name' in c:

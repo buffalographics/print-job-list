@@ -1,29 +1,40 @@
-#%%
+# %%
 from dotenv import load_dotenv
 from pymongo.errors import ConnectionFailure
+from pymongo.database import Database
 from pymongo import MongoClient
 import os
+from pprint import pprint
 
 load_dotenv()
 
 
-def Client():
+def get_config() -> dict:
     env_keys = ["DB_USER", "DB_PASSWORD", "DB_HOST", "DB_NAME"]
-
-    conf = {}
-
-    DB_USER = os.getenv("DB_USER")
-    DB_PASSWORD = os.getenv("DB_PASSWORD")
-    DB_HOST = os.getenv("DB_HOST")
-    DB_NAME = os.getenv("DB_NAME")
+    missing_keys = []
+    config = {}
 
     for key in env_keys:
-        val = os.getenv(key)
-        print(val)
-        if val is None:
-            print(f"Missing env variable {key}")
-    mongo_uri = f"mongodb+srv://{DB_USER}:" + DB_PASSWORD + f"@{DB_HOST}"
+        if not key in os.environ.keys():
+            missing_keys.append(key)
+        else:
+            config[key] = os.environ.get(key)
+
+    if len(missing_keys) > 0:
+        print("Missing keys")
+        pprint(missing_keys)
+        return
+
+    return config
+
+
+def Client() -> Database:
+    config = get_config()
+    mongo_uri = f"mongodb+srv://{config['DB_USER']}:" + \
+        config['DB_PASSWORD'] + f"@{config['DB_HOST']}"
+
     client = MongoClient(mongo_uri)
+
     db = client.buffalographics
 
     return db
