@@ -1,13 +1,15 @@
 # %%
 from glob import glob
 
-from get_config import get_config
-from Mongo import Client
+from config import Config
+from connect import Client
+
+db = Client()
 
 
 def link_jobs():
-    db = Client()["clients"]
-    clients_dir = get_config()["clients_dir_path"]
+    config = Config()
+    clients_dir = config["clients_dir_path"]
     job_paths = glob(clients_dir + "/**/**/*/PRINT", recursive=True)
     found = {}
 
@@ -15,11 +17,19 @@ def link_jobs():
 
         jobs = job_path.removeprefix(clients_dir + "/").split("/")
         name = jobs.pop(0)
-        client = found.get(name, db.find_one({"name": name}))
+        client = found.get(name, db["clients"].find_one({"name": name}))
+        l = len(jobs)
+        for o in range(l):
+            job = {
+                "client_id": client["_id"],
+                "client_name": client.name,
+                "name": jobs[o],
+                "belongs_to": jobs[o - 1],
+            }
 
-        for job in reversed(jobs):
-            obj = {"client": client}
-            print(obj)
+            db["projects"].insert_one(job)
 
 
 link_jobs()
+
+# %%
