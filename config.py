@@ -1,11 +1,10 @@
-# %%
 from os import environ
 from typing import TypedDict
 
 from dotenv import load_dotenv
 
 
-class Config(TypedDict):
+class ConfigDict(TypedDict):
     db_user: str
     db_password: str
     db_host: str
@@ -13,7 +12,7 @@ class Config(TypedDict):
     clients_dir_path: str
 
 
-def config() -> Config:
+def Config() -> ConfigDict:
     load_dotenv()
 
     vals = (
@@ -35,6 +34,3 @@ def config() -> Config:
             "db_name": db_name,
             "clients_dir_path": clients_dir_path,
         }
-
-
-print(config())
