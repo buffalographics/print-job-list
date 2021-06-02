@@ -1,0 +1,24 @@
+{
+  "clients": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "properties": {
+        "name": {
+          "bsonType": "string",
+          "description": "Company Name"
+        },
+        "file_path": {
+          "bsonType": "string",
+          "description": "Company folder location"
+        },
+        "projects": {
+          "bsonType": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["name", "file_path", "projects"]
+    }
+  }
+}

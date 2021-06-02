@@ -1,16 +1,16 @@
 {
   "jupyter.jupyterServerType": "local",
   "python.linting.enabled": true,
-  "python.pythonPath": "/usr/local/bin/python3",
-"python.formatting.provider": "black",
-"python.testing.unittestArgs": [
+  "python.pythonPath": "/usr/local/opt/python@3.9/bin/python3.9",
+  "python.formatting.provider": "yapf",
+  "python.testing.unittestArgs": [
     "-v",
     "-s",
     "./tests",
     "-p",
     "*test*.py"
-],
-"python.testing.pytestEnabled": false,
-"python.testing.nosetestsEnabled": false,
-"python.testing.unittestEnabled": true
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.unittestEnabled": true
 }

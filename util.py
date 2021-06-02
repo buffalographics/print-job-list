@@ -1,8 +1,12 @@
+from config import Config
 from pymongo import MongoClient
 import os
 from pdfrw import PdfReader
 import json
 import re
+
+config = Config()
+clients_dir_path = config.clients_dir_path
 
 
 def is_json(myjson):
@@ -63,14 +67,15 @@ def qty_file_str(file):
         return None
 
 
-def create_file_obj(client_id, job_id, file):
+def create_file_obj(client_id, project_id, file_obj):
+    file = file_obj['file_path']
     sizes = pdf_dim(file)
     file_name = file.split('/').pop()
-    qty = qty_file_str(file_name)
-    print(qty)
     file_obj = {
         "client_id": client_id,
-        "job_id": job_id,
+        "project_id": project_id,
+        'client_name': file_obj['client_name'],
+        "file_name": file_name,
         'full_path': file,
         "width": sizes["width"],
         "height": sizes["height"],
@@ -80,41 +85,37 @@ def create_file_obj(client_id, job_id, file):
     return file_obj
 
 
-def database():
-    user = 'buffalographics'
-    pwd = "Bgsince21"
-    host = "cluster0.z7wmc.mongodb.net"
-    # col = "buffalographics"
+def filep_vars(file_path):
 
-    mongo_uri = f"mongodb+srv://{user}:" + \
-        pwd + f"@{host}/"
-
-    db = None
-
-    start = time.time()
+    obj = {
+        'file_name': None,
+        'client_name': None,
+        'project_name': None,
+        'project_id': None,
+        'file_id': None,
+    }
 
     try:
+        str_list = file_path.removeprefix(f"{config.clients_dir_path}/")
+        str_list = str_list.split('/', 1)
+        client_name = str_list[0]
+        project_name = str_list[1].split('/', 1)[0]
 
-        # attempt to create a client instance of PyMongo driver
+        file_name = file_path.rsplit('/').pop()
+        project_id = '/'.join([
+            client_name,
+            project_name,
+            'PRINT',
+        ])
+        file_id = '/'.join([project_id, file_name])
+        obj['file_name'] = file_name
+        obj['client_name'] = client_name
+        obj['project_name'] = project_name
+        obj['project_id'] = project_id
+        obj['file_id'] = file_id
 
-        client = MongoClient(mongo_uri)
+    except Exception as err:
+        print(err)
+        return None
 
-    # call the server_info() to verify that client instance is valid
-
-        client.server_info()  # will throw an exception
-
-        print(time.time() - start)
-
-        db = client["buffalographics"]
-
-        return db
-
-    except:
-
-        print("connection error")
-
-    # print the time that has elapsed
-
-    print(time.time() - start)
-
-    # %%
+    return obj
