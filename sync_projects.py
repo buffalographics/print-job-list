@@ -41,3 +41,6 @@ def sync_projects():
         except WriteError as e:
             rejected_ids.append(project_id)
             pprint(e._message)
+
+
+sync_projects()

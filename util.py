@@ -1,9 +1,11 @@
-from config import Config
-from pymongo import MongoClient
-import os
-from pdfrw import PdfReader
+from collections.abc import Iterator, Iterable
 import json
+import os
 import re
+
+from pdfrw import PdfReader
+
+from config import Config
 
 config = Config()
 clients_dir_path = config.clients_dir_path
@@ -37,24 +39,41 @@ def file_size(file_path):
         return convert_bytes(file_info.st_size)
 
 
+units = [('INCHES', 72, 'in'), ('FEET', 864, 'ft'), ("YARD", 2592, 'yd'),
+         ("CENTIMETER", 28.3465, 'cm')]
+
+
+def make_unit_obj(amt, div):
+    obj = {}
+    obj['height'] = float(amt[0] / div)
+    obj['width'] = float(amt[1] / div)
+    obj['area'] = obj['height'] * obj['width']
+    return obj
+
+
 def pdf_dim(file):
+    sizes = {}
     if os.path.isfile(file) and file.endswith('.pdf') and os.stat(file):
-        sizes = {'height': '', 'width': ''}
-        try:
-            media_box = PdfReader(file).pages[0].MediaBox
-            # [0, 0, height, width] in points
 
-            h = (float(media_box[2]) / 72).__round__()
-            w = (float(media_box[3]) / 72).__round__()
+        for unit in units:
+            name = unit[0]
+            div = unit[1]
 
-            sizes['height'] = f"{h}in"
-            sizes['width'] = f"{w}in"
+            try:
+                media_box = PdfReader(file).pages[0].ArtBox
+                print(media_box)
+                # [0, 0, height, width] in points
 
-        except ValueError as e:
-            print(e)
-            print(f"Error getting dimensions of file\n{file}")
+                sizes[name.lower()] = make_unit_obj(
+                    [float(media_box[2]),
+                     float(media_box[3])], div)
 
-        return sizes
+            except ValueError as e:
+                print(e)
+                print(f"Error getting dimensions of file\n{file}")
+                return None
+
+    return sizes
 
 
 def qty_file_str(file):
@@ -69,7 +88,13 @@ def qty_file_str(file):
 
 def create_file_obj(client_id, project_id, file_obj):
     file = file_obj['file_path']
-    sizes = pdf_dim(file)
+    sizes = None
+
+    try:
+        sizes = pdf_dim(file)
+    except ValueError as e:
+        print(e)
+
     file_name = file.split('/').pop()
     file_obj = {
         "client_id": client_id,
@@ -119,3 +144,8 @@ def filep_vars(file_path):
         return None
 
     return obj
+
+
+def snake_case(name: str) -> str:
+    name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
+    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', name).lower()

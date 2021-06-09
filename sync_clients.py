@@ -1,24 +1,25 @@
-from connect import Client
+# %%
 import os
 
 from pymongo.errors import DuplicateKeyError
+from pymongo import MongoClient
+from progress.bar import Bar
 
-from config import Config
+client = MongoClient(host='localhost', port=27017)
+db = client['buffalographics']
 
-db = Client()
-clients_dir_path = Config().clients_dir_path
+dir = "/Volumes/GoogleDrive/Shared drives/Buffalo Graphics/clients"
+print(os.listdir(dir))
 
 
-def sync_clients(dir: str) -> None:
+def sync_clients() -> None:
 
     if os.path.isdir(dir) is False:
         print(f"{dir}\nis not a directory")
         return
 
-    folder_clients = os.listdir(clients_dir_path)
+    folder_clients = os.listdir(dir)
     new_clients = []
-
-    os.listdir(dir)
 
     for client_name in folder_clients:
         client = db.clients.find_one({'name': client_name})
@@ -33,7 +34,7 @@ def sync_clients(dir: str) -> None:
                 db.clients.insert_one({
                     "name":
                     client_name,
-                    "file_path":
+                    "dir_path":
                     os.path.join(dir, client_name),
                 })
 
@@ -44,3 +45,6 @@ def sync_clients(dir: str) -> None:
 
     else:
         print("Clients are up to date")
+
+
+sync_clients()

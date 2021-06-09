@@ -1,13 +1,17 @@
 # %%
 from glob import glob
 from pprint import pprint
+
+from pymongo import MongoClient
 from util import create_file_obj, filep_vars
 
 from config import Config
 from connect import Client
 from progress.bar import Bar
 
-db = Client()
+client = MongoClient(host='localhost', port=27017)
+db = client['buffalographics']
+
 config = Config()
 _clients = {}
 _projects = {}
