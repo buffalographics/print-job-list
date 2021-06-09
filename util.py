@@ -1,23 +1,8 @@
-from collections.abc import Iterator, Iterable
-import json
 import os
 import re
+from typing import Union
 
 from pdfrw import PdfReader
-
-from config import Config
-
-config = Config()
-clients_dir_path = config.clients_dir_path
-
-
-def is_json(myjson):
-    try:
-        json.loads(myjson)
-    except ValueError as e:
-        print(e)
-        return False
-    return True
 
 
 def convert_bytes(num):
@@ -43,15 +28,43 @@ units = [('INCHES', 72, 'in'), ('FEET', 864, 'ft'), ("YARD", 2592, 'yd'),
          ("CENTIMETER", 28.3465, 'cm')]
 
 
-def make_unit_obj(amt, div):
-    obj = {}
-    obj['height'] = float(amt[0] / div)
-    obj['width'] = float(amt[1] / div)
-    obj['area'] = obj['height'] * obj['width']
-    return obj
+def make_unit_obj(amt: Union[float, float], div: int / float):
+    """returns an object containing
+        - height
+        - width
+        - area
+
+    Args:
+        amt (Union[float, float]): [h in 'points', width in 'points']
+        div ([type]): [number to divide by for your conversion]
+
+    Returns:
+        dict[str, float]: [description]
+    """
+    [h_pts, w_pts] = amt
+
+    h = float(h_pts / div)
+    w = float(w_pts / div)
+    a = h * w
+
+    unit = {
+        'height': h,
+        'width': w,
+        'area': a
+    }
+
+    return unit
 
 
 def pdf_dim(file):
+    """[summary]
+
+    Args:
+        file ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """
     sizes = {}
     if os.path.isfile(file) and file.endswith('.pdf') and os.stat(file):
 
@@ -74,78 +87,3 @@ def pdf_dim(file):
                 return None
 
     return sizes
-
-
-def qty_file_str(file):
-    if 'qty' in file.lower():
-        print(file)
-        item = file.lower().replace('.pdf', '')
-        item = item.split('qty').pop()
-        return round(float(re.sub("[^0-9]", "", item)))
-    else:
-        return None
-
-
-def create_file_obj(client_id, project_id, file_obj):
-    file = file_obj['file_path']
-    sizes = None
-
-    try:
-        sizes = pdf_dim(file)
-    except ValueError as e:
-        print(e)
-
-    file_name = file.split('/').pop()
-    file_obj = {
-        "client_id": client_id,
-        "project_id": project_id,
-        'client_name': file_obj['client_name'],
-        "file_name": file_name,
-        'full_path': file,
-        "width": sizes["width"],
-        "height": sizes["height"],
-        "size": file_size(file),
-    }
-
-    return file_obj
-
-
-def filep_vars(file_path):
-
-    obj = {
-        'file_name': None,
-        'client_name': None,
-        'project_name': None,
-        'project_id': None,
-        'file_id': None,
-    }
-
-    try:
-        str_list = file_path.removeprefix(f"{config.clients_dir_path}/")
-        str_list = str_list.split('/', 1)
-        client_name = str_list[0]
-        project_name = str_list[1].split('/', 1)[0]
-
-        file_name = file_path.rsplit('/').pop()
-        project_id = '/'.join([
-            client_name,
-            project_name,
-            'PRINT',
-        ])
-        file_id = '/'.join([project_id, file_name])
-        obj['file_name'] = file_name
-        obj['client_name'] = client_name
-        obj['project_name'] = project_name
-        obj['project_id'] = project_id
-        obj['file_id'] = file_id
-
-    except Exception as err:
-        print(err)
-        return None
-
-    return obj
-
-
-def snake_case(name: str) -> str:
-    name = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
-    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', name).lower()

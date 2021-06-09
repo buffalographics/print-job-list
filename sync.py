@@ -1,13 +1,12 @@
 # %%
 import os
 from glob import glob
-from pprint import pprint
 
 from dotenv import load_dotenv
 from progress.bar import Bar
 from pymongo import MongoClient
 
-from util import file_size, pdf_dim, tbn_location
+from file_props import file_props
 
 load_dotenv('./.env.local')
 
@@ -46,33 +45,6 @@ except Exception as err:
     print(err)
 
 
-def file_props(full_file_path: str, local_file_path: str, name: str,
-               client_name: str, directory: str):
-
-    qty = None
-
-    file_obj = {
-        "name": name,
-        "client": client_name,
-        "directory": directory,
-        'path': local_file_path,
-        "size": file_size(full_file_path),
-        'dimensions': pdf_dim(full_file_path),
-        'qty': qty,
-    }
-
-    if file_obj['dimensions'] is None:
-        file_obj['error'] = True
-
-    try:
-        file_obj['qty'] = int(name.lower().rsplit('qty_', 1).pop())
-
-    except Exception as err:
-        pass
-
-    return file_obj
-
-
 for full_file_path in print_files:
     file_path = full_file_path.removeprefix(f"{dir}/")
     [project_dir, file_name] = file_path.removesuffix('.pdf').rsplit('/', 1)
@@ -104,17 +76,21 @@ for full_file_path in print_files:
 
 bar.finish()
 
+# Insert unsynced clients
 if len(clients.keys()) > 0:
     try:
         db.clients.insert_many(clients.values())
     except Exception as err:
         print(err)
 
+# insert unsynced projects
 if (len(projects.keys())) > 0:
     try:
         db.projects.insert_many(projects.values())
     except Exception as err:
         print(err)
+
+# insert unsynced files
 if len(files) > 0:
     try:
         db.files.insert_many(files)

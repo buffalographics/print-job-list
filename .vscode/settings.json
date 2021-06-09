@@ -2,15 +2,15 @@
   "jupyter.jupyterServerType": "local",
   "python.linting.enabled": true,
   "python.pythonPath": "/usr/local/opt/python@3.9/bin/python3.9",
-  "python.formatting.provider": "yapf",
+  "python.formatting.provider": "autopep8",
   "python.testing.unittestArgs": [
     "-v",
     "-s",
     "./tests",
     "-p",
-    "*test*.py"
+    "test_*.py"
   ],
-  "python.testing.pytestEnabled": false,
   "python.testing.nosetestsEnabled": false,
-  "python.testing.unittestEnabled": true
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false
 }
