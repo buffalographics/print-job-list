@@ -1,6 +1,6 @@
 import os
 import re
-from typing import Union
+from typing import Any, Union
 
 from pdfrw import PdfReader
 
@@ -28,7 +28,7 @@ units = [('INCHES', 72, 'in'), ('FEET', 864, 'ft'), ("YARD", 2592, 'yd'),
          ("CENTIMETER", 28.3465, 'cm')]
 
 
-def make_unit_obj(amt: Union[float, float], div: int / float):
+def make_unit_obj(amt, div, suffix):
     """returns an object containing
         - height
         - width
@@ -48,9 +48,18 @@ def make_unit_obj(amt: Union[float, float], div: int / float):
     a = h * w
 
     unit = {
-        'height': h,
-        'width': w,
-        'area': a
+        'height': {
+            'value': h,
+            'str': f"{h}{suffix}"
+        },
+        'width': {
+            'value': h,
+            'str': f"{h}{suffix}"
+        },
+        'area': {
+            'value': h,
+            'str': f"{h}{suffix}"
+        },
     }
 
     return unit
@@ -71,15 +80,15 @@ def pdf_dim(file):
         for unit in units:
             name = unit[0]
             div = unit[1]
+            suffix = unit[2]
 
             try:
                 media_box = PdfReader(file).pages[0].ArtBox
-                print(media_box)
                 # [0, 0, height, width] in points
 
                 sizes[name.lower()] = make_unit_obj(
                     [float(media_box[2]),
-                     float(media_box[3])], div)
+                     float(media_box[3])], div, suffix)
 
             except ValueError as e:
                 print(e)

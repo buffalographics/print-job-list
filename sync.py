@@ -12,7 +12,7 @@ load_dotenv('./.env.local')
 
 dir = os.getenv('CLIENTS_DIR_PATH')
 tbn_dir = os.getenv('TBN_DIR')
-mongo_uri = os.getenv('DB_URI')
+mongo_uri = os.getenv('MONGO_URI')
 
 print_files = glob(f"{dir}/**/PRINT/*.pdf", recursive=True)
 bar = Bar('Syncing Files', max=len(print_files))
